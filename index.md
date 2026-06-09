@@ -1,6 +1,6 @@
 ---
 layout: home
-title: AI-First Quality Architecture
+title: AI-First Quality & Automation Architecture
 ---
 
 # Engineering Autonomous Quality Ecosystems
@@ -9,7 +9,7 @@ Welcome to my technical space. I am a Senior Software Development Engineer in Te
 
 My focus centers on shifting modern engineering organizations away from traditional, reactive scripting and transforming quality engineering into an intelligent, platform-driven capability native to the infrastructure layer. 
 
-I actively develop next-generation AI tools and architectures tailored for functional, non-functional, UI, and API automation frameworks. In this space, I write about high-performance backend engines in **Golang**, Android mobile platform quality, transactional systems, and my ongoing work building autonomous quality infrastructures like `NeonAgent` and `TestHub`.
+I actively develop next-generation AI tools and architectures tailored for functional, non-functional, UI, and API automation frameworks. In this space, I write about engineering high-performance backend engines in **Golang**, managing Android mobile platform quality, securing complex transactional systems, and scaling autonomous quality infrastructure.
 
 ---
 
