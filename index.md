@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -102,8 +101,6 @@
 <body>
 
     <section class="hero-section">
-
-        <h1>Vishnuvardhan Reddy</h1>
 
         <p class="designation">
             Sr. SDET Manager | Quality Architect
