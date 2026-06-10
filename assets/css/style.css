@@ -1,0 +1,177 @@
+/* ===== Global ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 24px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.8;
+    color: #1f2937;
+    background-color: #ffffff;
+}
+
+/* ===== Typography ===== */
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.designation {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 18px;
+    color: #4b5563;
+}
+
+strong {
+    color: #111827;
+}
+
+/* ===== Hero Section ===== */
+
+.hero-section {
+    margin-bottom: 70px;
+}
+
+.hero-tagline {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 25px;
+}
+
+/* ===== Lists ===== */
+
+ul {
+    padding-left: 22px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* ===== Quote ===== */
+
+blockquote {
+    margin-top: 40px;
+    padding: 24px;
+    border-left: 5px solid #2563eb;
+    background: #f8fafc;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* ===== Expertise ===== */
+
+.expertise-section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 60px;
+}
+
+.skills-column {
+    flex: 1;
+}
+
+.skills-column ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-column li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* ===== Articles ===== */
+
+.articles-section {
+    margin-top: 60px;
+}
+
+.article-card {
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.article-card h3 {
+    margin-top: 0;
+}
+
+.article-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== Footer ===== */
+
+footer {
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 1px solid #e5e7eb;
+    color: #6b7280;
+    text-align: center;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 30px 18px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 0;
+    }
+}
